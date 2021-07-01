@@ -1,0 +1,36 @@
+section {
+  padding-bottom: 20px;
+}
+
+u1 {
+  font-size: 24px;
+  background-color: skyblue;
+}
+
+u2 {
+  font-size: 18px;
+}
+
+
+main p:nth-child(3n) {
+  background-color: skyblue;
+}
+
+
+main {
+  display: flex;
+}
+
+.box1 {
+  flex-grow: 1;
+  background-color: skyblue;
+}
+
+.box2 {
+  background-color: tomato;
+  flex-grow: 2;
+}
+
+.box3 {
+  background-color: grey;
+}
